@@ -1,0 +1,3 @@
+﻿"Poste";"AdresseIP";"EtatAcces";"Windows";"DernierDemarrage";"WindowsUpdate";"NbRequis";"NbManquants";"ListeManquantes";"EtatConformite";"DateControle"
+"Hote-PC";"192.168.100.1";"WinRM inaccessible";"N/A";"N/A";"N/A";"2";"N/A";"";"INACCESSIBLE";"14/10/2026 19:53"
+"NomDeMaVM";"192.168.100.10";"Accessible";"Microsoft Windows 10 Famille";"14/10/2026 19:11:15";"Stopped";"2";"1";"KB9999999";"NON CONFORME";"14/10/2026 19:53"

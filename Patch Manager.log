@@ -1,0 +1,16 @@
+
+14/10/2026 19:53:02; Début de l'audit
+14/10/2026 19:53:07; Hote-PC; WinRM inaccessible
+14/10/2026 19:53:08; NomDeMaVM; Accessible
+14/10/2026 19:53:08; NomDeMaVM; Non conforme; KB9999999
+14/10/2026 19:53:08; Rapport généré
+14/10/2026 19:53:08; Fin de l'audit
+14/10/2026 20:01:38; ALERTE; Notification générée (Non conformes: 1)
+14/10/2026 20:04:59; ALERTE; Notification générée (Non conformes: 1)
+14/10/2026 20:07:12; ALERTE; Notification générée (Non conformes: 1)
+14/10/2026 20:12:33 ; ERREUR ; Notification non envoyée
+21/10/2026 20:08:22 ; ERREUR ; Notification non envoyée
+21/10/2026 20:12:40 ; ERREUR ; Notification non envoyée
+21/10/2026 20:17:45 ; ERREUR ; Notification non envoyée
+21/10/2026 20:18:18 ; ERREUR ; Notification non envoyée
+21/10/2026 20:21:23 ; Notification envoyée à admin@entreprise.local

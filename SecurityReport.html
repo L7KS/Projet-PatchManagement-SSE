@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rapport de SÃ©curitÃ© - Patch Management</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f6f9; color: #333; }
+        h1, h2 { color: #0056b3; }
+        .summary-box { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .summary-box ul { list-style-type: none; padding: 0; }
+        .summary-box li { padding: 6px 0; border-bottom: 1px solid #eee; }
+        table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        th, td { padding: 12px 15px; border: 1px solid #ddd; text-align: left; font-size: 14px; }
+        th { background-color: #0056b3; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .conforme { color: #28a745; font-weight: bold; }
+        .non-conforme { color: #dc3545; font-weight: bold; }
+        .inaccessible { color: #ffc107; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Rapport de SÃ©curitÃ© - Patch Management Windows</h1>
+    <p><b>Date et heure du contrÃ´le :</b> 14/10/2026 19:53:08</p>
+
+    <div class="summary-box">
+        <h2>SynthÃ¨se Globale du Parc</h2>
+        <ul>
+            <li><b>Nombre total de postes :</b> 2</li>
+            <li><b>Nombre de postes accessibles :</b> 1</li>
+            <li><b>Nombre de postes inaccessibles :</b> 1</li>
+            <li><b>Nombre de postes conformes :</b> 0</li>
+            <li><b>Nombre de postes non conformes :</b> 1</li>
+            <li><b>Total des correctifs manquants :</b> 1</li>
+            <li><b>Taux de conformitÃ© global :</b> 0 %</li>
+        </ul>
+    </div>
+
+    <h2>DÃ©tail des Postes et Anomalies</h2>
+    <table>
+        <tr>
+            <th>Poste</th>
+            <th>Adresse IP</th>
+            <th>Ã‰tat AccÃ¨s</th>
+            <th>Version Windows</th>
+            <th>Dernier DÃ©marrage</th>
+            <th>Service WU</th>
+            <th>Manquants</th>
+            <th>KB Manquantes</th>
+            <th>ConformitÃ©</th>
+        </tr><tr>
+        <td>Hote-PC</td>
+        <td>192.168.100.1</td>
+        <td>WinRM inaccessible</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td></td>
+        <td class='inaccessible'>INACCESSIBLE</td>
+    </tr><tr>
+        <td>NomDeMaVM</td>
+        <td>192.168.100.10</td>
+        <td>Accessible</td>
+        <td>Microsoft Windows 10 Famille</td>
+        <td>10/14/2026 19:11:15</td>
+        <td>1</td>
+        <td>1</td>
+        <td>KB9999999</td>
+        <td class='non-conforme'>NON CONFORME</td>
+    </tr>    </table>
+</body>
+</html>
